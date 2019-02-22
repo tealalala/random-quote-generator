@@ -1,6 +1,5 @@
 // Table of Contents
 // 01 - Array of Quotes
-// 02 -
 
 
 var quotes = [
@@ -10,5 +9,14 @@ var quotes = [
 ];
 
 var randomNumber = Math.floor(Math.random() * quotes.length);
+console.log(randomNumber);
 
 document.getElementById('text').innerHTML = quotes[randomNumber][0];
+
+document.getElementById('new-quote').addEventListener("click", function(){
+  var randomNumber = Math.floor(Math.random() * quotes.length);
+  document.getElementById('text').innerHTML = quotes[randomNumber][0];
+
+  console.log(randomNumber);
+  console.log("successful click");
+});
