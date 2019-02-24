@@ -9,17 +9,19 @@ var quotes = [
   ["Organizing is what you do before you do something, so that when you do it, it is not all mixed up.", "A.A. Milne", "author known for \"Winnie-the-Pooh\""],
   ["For every minute spent in organizing, an hour is earned.", "Benjamin Franklin", "One of the Founding Fathers of the United States"],
   ["Once you have a clear idea of your priorities – that is your values, goals and high leverage activities, organize around them.", "Stephen Covey", "author known for \"The 7 Habits of Highly Effective People\""],
-  ["Limit your \"always\" and your \"nevers.\"", "Amy Poehler", "Comedian"]
+  ["Limit your 'always' and your 'nevers'.", "Amy Poehler", "Comedian"]
 ];
 
 // 02 - getRandomQuote function
 function getRandomQuote() {
   var randomNumber = Math.floor(Math.random() * quotes.length);
 
-  console.log(randomNumber);
-  console.log("successful click");
+  console.log(`${randomNumber} successful click`);
 
-  return document.getElementById('text').innerHTML = `"${quotes[randomNumber][0]}"`;
+  document.getElementById('text').innerHTML = `"${quotes[randomNumber][0]}"`;
+  document.getElementById('author').innerHTML = `— ${quotes[randomNumber][1]}, ${quotes[randomNumber][2]}`;
+
+  return console.log("successful text replacement");
 };
 
 // 03 - AddEventListener - click new-quote button to getRandomQuote
