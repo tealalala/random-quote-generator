@@ -12,5 +12,5 @@ While in your directory-of-interest, run the following commands in your terminal
 git clone https://github.com/tealalala/random-quote-generator.git
 ```
 
-## 3. Credits
+## 2. Credits
 All quotations are owned by their respective authors.
