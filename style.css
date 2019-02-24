@@ -23,8 +23,7 @@ body {
 }
 
 h1 {
-  margin-bottom: 0;
-  padding-bottom: 0;
+  margin-bottom: -15px;
 }
 
 #quote-box {
@@ -33,9 +32,23 @@ h1 {
   width: 90%;
   height: 50%;
   background-color: #a2dcdc;
+  border-radius: 10px;
+  position: relative;
 }
 
-img {
-  width: 100%;
-  height: 100%;
+#text {
+  font-size: 1.5em;
+}
+
+#button-quote {
+  position: absolute;
+  bottom: 5%;
+}
+
+button {
+  font-size: 3em;
+  color: yellow;
+  background-color: red;
+  border: 10px blue solid;
+  padding: 5px;
 }
