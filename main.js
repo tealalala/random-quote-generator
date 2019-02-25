@@ -1,7 +1,8 @@
 // Table of Contents
 // 01 - Array of Quotes
-// 02 - getRandomQuote function
-// 03 - AddEventListener - new quote when click button
+// 02 - onload random quote
+// 03 - getRandomQuote function
+// 04 - AddEventListener - new quote when click button
 
 // 01 - Array of Quotes
 var quotes = [
@@ -12,9 +13,14 @@ var quotes = [
   ["Limit your 'always' and your 'nevers'.", "Amy Poehler", "Comedian"]
 ];
 
-// 02 - getRandomQuote function
+// 02 - window onload random quote
+var randomNumber = Math.floor(Math.random() * quotes.length);
+document.getElementById('text').innerHTML = `"${quotes[randomNumber][0]}"`;
+document.getElementById('author').innerHTML = `— ${quotes[randomNumber][1]}, ${quotes[randomNumber][2]}`;
+
+// 03 - getRandomQuote function
 function getRandomQuote() {
-  var randomNumber = Math.floor(Math.random() * quotes.length);
+  let randomNumber = Math.floor(Math.random() * quotes.length);
 
   console.log(`${randomNumber} successful click`);
 
@@ -24,5 +30,5 @@ function getRandomQuote() {
   return console.log("successful text replacement");
 };
 
-// 03 - AddEventListener - click new-quote button to getRandomQuote
+// 04 - AddEventListener - click new-quote button to getRandomQuote
 document.getElementById('new-quote').addEventListener("click", getRandomQuote, true);
