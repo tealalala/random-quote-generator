@@ -1,0 +1,19 @@
+/* portrait */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+  * {
+    background-color: blue;
+  }
+}
+
+/* landscape */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+  * {
+    background-color: pink;
+  }
+}

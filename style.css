@@ -6,20 +6,29 @@ body {
 }
 
 #container {
+  background-color: yellow;
   margin: auto;
-  padding: 5%;
-  width: 50%;
-  height: 70%;
+  padding: auto;
+  width: 80%;
+  height: 80%;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: stretch;
-  align-content: flex-start;
+  flex-flow: column nowrap;
+  /* justify-content: center; */
+  /* align-items: stretch; */
+  /* align-content: flex-start; */
+}
+
+#header {
+  position: absolute;
+  margin: auto;
+  padding: 2%;
+  width: 100%;
+  background-color: red;
 }
 
 h1 {
@@ -27,13 +36,13 @@ h1 {
 }
 
 #quote-box {
+  position: absolute;
   margin: auto;
   padding: 5%;
-  width: 90%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   background-color: #70CEC1;
   border-radius: 10px;
-  position: relative;
 }
 
 #text {
@@ -54,8 +63,10 @@ h1 {
 
 button {
   padding: 3%;
-  min-width: 50%;
-  max-width: 100%;
+  min-width: 10%;
+  max-width: 60%;
+  min-height: 20%;
+  max-height: 20%;
   font-size: 1.5em;
   color: #FFFFFF;
   background-color: #798FD5;
@@ -64,8 +75,16 @@ button {
 }
 
 #footer {
-  position: absolute;
+  position: relative;
   margin: auto;
-  bottom: 10px;
+  bottom: 2px;
+  width: 90%;
   text-align: center;
+  background-color: green;
+}
+
+#container > div {
+  position: relative;
+  margin: auto;
+  width: 80%;
 }
