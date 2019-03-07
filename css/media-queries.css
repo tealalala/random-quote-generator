@@ -1,0 +1,11 @@
+@media (min-width: 400px) {
+  #container {
+    width: 100%;
+  }
+}
+
+@media (min-width: 800px) {
+  #container {
+    width: 90%;
+  }
+}
