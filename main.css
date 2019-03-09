@@ -1,11 +1,3 @@
-/*
-
-Note:
- * Please do not do this in real life: importing CSS files.
- * Breaking down the CSS files into specific areas helps me organize, then consolidate them into 1 CSS file later.
-
- */
-
 @import "./css/content.css";
 @import "./css/layout.css";
 @import "./css/media-queries.css";
