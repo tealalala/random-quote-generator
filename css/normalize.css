@@ -4,12 +4,10 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
 }
 
-html,
-body,
-div,
-h1,
-h2 {
-  box-sizing: content-box;
+*, *:before, *:after {
+  box-sizing: inherit;
 }

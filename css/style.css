@@ -1,10 +1,17 @@
 /* body {
   background-color: #96C467;
 } */
-#main-content {
-  background-color: #FFFFFF;
-}
 
 #container {
-  background-color: #6FCCCB;
+  background-color: #aae9e8;
+}
+
+#new-quote {
+  background-color: pink;
+  font-size: 1.5em;
+}
+
+#footer {
+  /* background-color: red; */
+  /* border: 2px solid blue; */
 }
