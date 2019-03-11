@@ -6,7 +6,7 @@
 #container {
   position: absolute;
   margin: 30px;
-  padding: 10%;
+  padding: 5%;
   top: 0;
   right: 0;
   bottom: 0;
@@ -17,8 +17,19 @@
   align-items: center;
 }
 
+#quote-box {
+  position: relative;
+  width: 100%;
+}
+
+#button-quote {
+  width: 100%;
+  height: 100%;
+}
+
 #new-quote {
-  position: absolute;
+  position: relative;
+  margin: auto;
   display: block;
 }
 
