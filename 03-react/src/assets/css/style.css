@@ -1,0 +1,22 @@
+/* body {
+  background-color: #96C467;
+} */
+
+#container {
+  background-color: #aae9e8;
+}
+
+#new-quote {
+  background-color: pink;
+  font-size: 1.5em;
+}
+
+#button-quote {
+  /* background-color: red; */
+  width: 100%;
+}
+
+#footer {
+  /* background-color: red; */
+  /* border: 2px solid blue; */
+}

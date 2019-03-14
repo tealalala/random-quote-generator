@@ -1,3 +1,10 @@
+@import "./assets/css/content.css";
+@import "./assets/css/layout.css";
+@import "./assets/css/media-queries.css";
+@import "./assets/css/normalize.css";
+@import "./assets/css/style.css";
+/*
+
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +18,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
+} */
