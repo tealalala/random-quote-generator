@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-// import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header.js'
 import NewQuote from './components/NewQuote.js'
 
 class App extends Component {
@@ -9,6 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           Content here
+          <Header/>
           <NewQuote/>
         </header>
       </div>
