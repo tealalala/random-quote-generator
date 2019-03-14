@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './components/Header.js'
+import HeaderQuote from './components/Header.js'
 import NewQuote from './components/NewQuote.js'
 import ButtonQuote from './components/Button.js'
+import FooterQuote from './components/Footer.js'
 
 class App extends Component {
   render() {
@@ -10,9 +11,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           Content here
-          <Header/>
+          <HeaderQuote/>
           <NewQuote/>
           <ButtonQuote/>
+          <FooterQuote/>
         </header>
       </div>
     );
