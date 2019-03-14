@@ -2,7 +2,10 @@ import React from 'react';
 
 const FooterQuote = function() {
   return (
-    <h1>Footer Quote Component</h1>
+    <div id="footer">
+      <p>Made by Tea La</p>
+      <p>Color scheme by <a href="https://colourco.de/quad/4/d37879" target="_blank">Colourco.de</a></p>
+    </div>
   )
 }
 
