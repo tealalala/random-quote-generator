@@ -1,5 +1,5 @@
 # Random Quote Generator
-A random quote generator project to demonstrate my skills in vanilla CSS and JavaScript.
+A random quote generator project to demonstrate my skills in vanilla CSS and JavaScript. Quotes focused primarily with organizing.
 
 ## Table of Contents
 1. [Running Locally](#1-running-locally)
