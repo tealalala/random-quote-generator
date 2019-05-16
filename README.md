@@ -1,7 +1,7 @@
 # Random Quote Generator
 A random quote generator project to demonstrate my skills in vanilla CSS and JavaScript. Quotes focused primarily with organizing.
 
-![Random Quote Generator GIF] https://github.com/tealalala/random-quote-generator/blob/master/random-quote.gif
+![Random Quote Generator GIF] (https://github.com/tealalala/random-quote-generator/blob/master/random-quote.gif)
 
 ## Table of Contents
 1. [Running Locally](#1-running-locally)
